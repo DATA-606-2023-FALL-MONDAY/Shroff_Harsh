@@ -42,19 +42,24 @@ The research questions for this project may include:
 
 ### Data Sources
 
-The primary data source for this project is the InsideAirbnb dataset, which is published by Airbnb and contains comprehensive information about Airbnb listings worldwide, including property details, host information, and photos.
+The primary data source for this project is the [InsideAirbnb](http://insideairbnb.com/get-the-data/) dataset, which is published by Airbnb and contains comprehensive information about Airbnb listings worldwide, including property details, host information, and photos.
 
 ### Data Size
 
-The size of the dataset may vary over time as new listings are added and existing ones are updated. As of the latest update, the dataset could be several gigabytes in size due to the inclusion of photos.
+I have shortlisted 8 cities from the East Coast of the USA namely Asheville, North Carolina, Boston, Massachusetts, Cambridge, Massachusetts, Jersey City, New Jersey, New York City, New York, Newark, New Jersey, Rhode Island, Rhode Island.
+
+Combining altogether, 
+- the *CSV* files are about 160 MBs in size.
+- the size of *images* folder is ~6.5 GBs (if taken 1 image per listing).
+
 
 ### Data Shape
 
-The dataset typically consists of thousands to millions of rows and multiple columns, depending on the geographical coverage and the number of listings. Each row represents a unique Airbnb listing.
+There are 75 columns and 62330 rows in the dataset.
 
 ### Time Period
 
-The data may not be strictly time-bound, but it covers listings available at the time of data collection. The dataset can include listings from different years, and it is essential to consider the publication date of each listing.
+The data is not strictly time-bound, but it covers listings available at the time of data collection. The dataset include listings from different years, and it is essential to consider the publication date of each listing.
 
 ### What does each row represent?
 
@@ -64,20 +69,42 @@ Each row in the dataset represents a unique Airbnb listing, including informatio
 
 A sample data dictionary might include the following information:
 
-- **Columns Name:** These could include columns such as "listing_id," "property_type," "room_type," "accommodates," "bedrooms," "bathrooms," "host_id," "neighborhood," "price," and "photo_urls."
+- **Columns Name:** These could include columns such as `listing_id, property_type, room_type, accommodates, bedrooms, bathrooms, host_id, neighborhood, price, latitude, longitude,` and `photo_urls.`
 
-- **Data Type:** Data types may include integers, floats, strings, dates, and images (for photo URLs).
-
-- **Definition:** Definitions would describe the meaning of each column, e.g., "listing_id" represents the unique identifier of an Airbnb listing.
+- **Data Type:** Data types are include integers, floats, strings, dates, and images (for photo URLs).
 
 - **Potential Values:** For categorical variables like "property_type" or "room_type," potential values might include "Apartment," "House," "Private room," "Entire home/apt," etc.
 
 ### Target/Label Variable for ML Model
 
-The target variable for the machine learning model in this project would likely be a binary classification label indicating whether a particular Airbnb listing is a good match for the user's style preferences based on their provided photos.
+A binary classification label indicating whether a particular Airbnb listing is a good match for the user's style preferences based on the photos of their previous stays.
+
+This means that for each Airbnb listing in the dataset, the machine learning model will predict whether it is a suitable recommendation for a user based on their provided photos. It helps users identify accommodations that align with their preferred style and ambiance.
 
 ### Features/Predictors for ML Models
 
-Potential features or predictors for the machine learning model could include attributes such as "property_type," "room_type," "bedrooms," "bathrooms," "neighborhood," and the results of image analysis (e.g., style, color palette, sentiment) from the provided photos.
+Features or predictors are the variables and data points used by the machine learning model to make predictions about the target variable. These features should be relevant and informative in helping the model understand the style preferences of the user and the characteristics of Airbnb listings.
 
-The data and data dictionary will be crucial in building and training machine learning models and in conducting analyses to answer the research questions and create a functional recommendation system.
+1. **Image Analysis Results:**
+
+   These are features derived from computer vision techniques applied to the photos provided by users. These features might include:
+     - Style descriptors (e.g., modern, rustic, minimalist).
+     - Color palette information (e.g., warm tones, cool tones).
+     - Sentiment analysis (e.g., positive, cozy, vibrant).
+     - Object recognition (e.g., presence of a fireplace, pool, beach view).
+
+3. **Property Attributes:**
+
+   Relevant attributes of Airbnb listings, such as:
+     - Property type (e.g., apartment, house, villa).
+     - Room type (e.g., entire home, private room, shared room).
+     - Number of bedrooms and bathrooms.
+     - Location or neighborhood.
+
+5. **Pricing Information:** The price of the listing per night or per stay.
+
+6. **Host Information:** Information about the host, such as host responsiveness or Superhost status.
+
+7. **User Preferences:** User-provided preferences, if available (e.g., specific amenities, neighborhood preferences, budget constraints).
+
+8. **Historical Data:** Information about the user's past Airbnb stays, including their previous booking history and any user reviews they have left for other accommodations.
