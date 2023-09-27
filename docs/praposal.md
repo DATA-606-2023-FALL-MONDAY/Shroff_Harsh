@@ -50,7 +50,13 @@ I have shortlisted 8 cities from the East Coast of the USA namely Asheville, Nor
 
 Combining altogether, 
 - the *CSV* files are about 160 MBs in size.
-- the size of *images* folder is ~6.5 GBs (if taken 1 image per listing).
+- the size of *images* folder is 130 GBs (if taken 1 image per listing).
+     - New York (New York City): 80.5 GB
+     - North Carolina (Ashville): 9.44 GB
+     - Rhode Island (Rhode Island): 11.5 GB
+     - District of Columbia (Washington): 14.3 GB
+     - New Jersey (Jersey City + Newark): 5.36 GB
+     - Massachusetts (Boston + Cambridge): 9.48 GB
 
 
 ### Data Shape
