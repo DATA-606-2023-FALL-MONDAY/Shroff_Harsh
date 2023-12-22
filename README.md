@@ -36,20 +36,19 @@ Relevant Coursework: Python, Artificial Intelligence, Internet of Things
 ---
 
 ## Experience
-**Data Science Tech Intern**  
-*[The Conservation Fund, Freshwater Institute, WV, USA](https://www.conservationfund.org/our-work/freshwater-institute)*  
-Aug 2023 - Dec 2023
-- Implemented machine-vision algorithms on Raspberry Pi to streamline the traditional salmon coloration process by 80% efficiency.
-- Developed a GUI in python to efficiently run the algorithm and process captured images.
-- Designed a 3D printed case to encase an LCD screen, Raspberry PI 4, and HQ camera.
-
-
 **Graduate Research Assistant**  
 *[Center for Real-time Distributed Sensing and Autonomy, UMBC](https://cards.umbc.edu/)*  
 Mar 2023 – Present  
 - Developing hand gesture based control for Boston Dynamics' Spot robots for teleoperation using Microsoft HoloLens 2.
 - Developing prototypes on robots from ClearPath Robotics like Jackal and Husky.
 - Implementing LIDAR and interfacing Axis camera on Jackal and building indoor and outdoor map.
+
+**Data Science Tech Intern**  
+*[The Conservation Fund, Freshwater Institute, WV, USA](https://www.conservationfund.org/our-work/freshwater-institute)*  
+Aug 2023 - Dec 2023
+- Implemented machine-vision algorithms on Raspberry Pi to streamline the traditional salmon coloration process by 80% efficiency.
+- Developed a GUI in python to efficiently run the algorithm and process captured images.
+- Designed a 3D printed case to encase an LCD screen, Raspberry PI 4, and HQ camera.
 
 **Electronics & Machine Learning Intern**  
 *[WeHear Innovations PVT LTD, Ahmedabad, India](https://wehear.in/)*  
