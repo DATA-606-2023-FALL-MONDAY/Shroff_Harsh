@@ -1,4 +1,4 @@
-# DATA 606: Capestone Project in Data Science
+# Project Report - DATA 606: Capestone Project in Data Science
  
 ## Project Title: *AirbnbLens - Capturing Your Style*
 
