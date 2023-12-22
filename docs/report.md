@@ -13,8 +13,6 @@
 **Website:** [https://harshshroff.github.io/resume/](https://harshshroff.github.io/resume/)
 
 **Power Point File:** [PPT File](https://github.com/DATA-606-2023-FALL-MONDAY/Shroff_Harsh/blob/main/docs/DAT606_presentation.pptx)
-
-**YouTube Video:** [YT VIdeo]()
     
 ## Background
 
