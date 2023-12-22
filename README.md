@@ -38,10 +38,10 @@ Relevant Coursework: Python, Artificial Intelligence, Internet of Things
 ## Experience
 **Data Science Tech Intern**  
 *[The Conservation Fund, Freshwater Institute, WV, USA](https://www.conservationfund.org/our-work/freshwater-institute)*  
-Aug 2023 - Present
-- Contributing to various aquaculture and Recirculating Aquaculture Systems (RAS) research projects.
-- Creating machine-vision algorithms to streamline the traditional salmon coloration process.
-- Collaborating on studies focused on enhancing aquaculture techniques at the Conservation Fund, Freshwater Institute.
+Aug 2023 - Dec 2023
+- Implemented machine-vision algorithms on Raspberry Pi to streamline the traditional salmon coloration process by 80% efficiency.
+- Developed a GUI in python to efficiently run the algorithm and process captured images.
+- Designed a 3D printed case to encase an LCD screen, Raspberry PI 4, and HQ camera.
 
 
 **Graduate Research Assistant**  
