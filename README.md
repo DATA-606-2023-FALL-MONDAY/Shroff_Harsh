@@ -1,6 +1,6 @@
 # Harsh Shroff
 
-![Harsh Shroff](https://github.com/HarshShroff/UMBC-DATA606-FALL2023-MONDAY/blob/main/harsh_passportpic_new.jpeg)
+![Harsh Shroff]([https://github.com/HarshShroff/UMBC-DATA606-FALL2023-MONDAY/blob/main/harsh_passportpic_new.jpeg](https://github.com/DATA-606-2023-FALL-MONDAY/Shroff_Harsh/blob/main/docs/imgs/HarshPassportPic.jpg))
 
 📞 +1(667) 464-5255  📧 harshrofff@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/harshroff/)  
