@@ -6,6 +6,8 @@
 
 **Author Name:** [Harsh Shroff](https://github.com/DATA-606-2023-FALL-MONDAY/Shroff_Harsh/blob/main/README.md)
 
+**Email:** [hshroff2@umbc.edu](mailto:hshroff2@umbc.edu)
+
 **LinkedIn:** [https://www.linkedin.com/in/harshroff/](https://www.linkedin.com/in/harshroff/)
 
 **GitHub:** [https://github.com/HarshShroff](https://github.com/HarshShroff)
